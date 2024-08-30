@@ -8,7 +8,25 @@
 </head>
 <body>
 <div class="container">
-
+    <h2>Cadastro</h2>
+    <form id="form" action="cadastrar.php" method="post">
+        <div class="input-grupo">
+            <label for="nome">Nome</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="input-grupo">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="input-grupo">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div class="input-grupo">
+            <button type="submit" id="button">Cadastrar</button>
+        </div>
+    </form>
+    <p id="mensagem"></p>
 </div>
 <script src="js/main.js"></script>
 </body>

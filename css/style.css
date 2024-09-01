@@ -53,3 +53,41 @@ h2 {
     text-align: center;
     margin-top: 20px;
 }
+
+body.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8d7da;
+    font-family: Arial, sans-serif;
+}
+
+.success-container .button {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.success-container .button h1 {
+    color: #721c24;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.success-container .button a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.success-container .button a:hover {
+    background-color: #0056b3;
+}
